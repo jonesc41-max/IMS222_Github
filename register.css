@@ -1,0 +1,178 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+/**/
+body {
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 21px;
+    background: url("images/dark-wood.jpg");
+}
+
+.wrapper {
+    width: 940px;
+    margin: 1px auto;
+    /* 20px on top/bottom and equal margin for left/right */
+    border: 2px solid #3e773e;
+    background-color: #fff;
+}
+
+/* header */
+header {
+    height: 166px;
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: #aeaca8;
+    color: darkcyan;
+    height: 26px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul {
+    margin: -7px;
+    padding: -6px 1px 1px 48px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: darkgreen;
+}
+
+/* main section */
+.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid blue;
+    margin-right: 20px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+}
+
+.courses article {
+    overflow: auto;
+    width: 100%;
+}
+
+h2,
+h3 {
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+h3 ul {
+    margin-bottom: 10px;
+    color: blue;
+}
+
+/* sidebar */
+aside article a {
+    display: block;
+    /*change <a> tag(inline element) to a block element*/
+    padding: 10px;
+}
+
+aside article a:hover {
+    color: yellow;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+/* footer */
+footer {
+    font-size: 80%;
+    padding: 7px 1px 1px 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+fieldset {
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    margin: 0 auto
+}
+
+label {
+    float: left;
+    width: 15em;
+    text-align: right;
+}
+
+input,
+select,
+textarea {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input:required {
+    border: 2px solid blue;
+}
+
+#submit {
+    width: 7em;
+    background-color: red;
+    color: white;
+    margin-left: 4em
+}
+
+aside article a {
+    display: block;
+    padding: 10px;
+}
+
+
+aside {
+    float: left;
+    border-left: 1px solid green;
+    padding-left: 10px
+}
+
+.courses {
+    border: none;
+}
